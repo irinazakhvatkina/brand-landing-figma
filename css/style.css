@@ -1,0 +1,246 @@
+/* ОБНУЛЕНИЕ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+a {
+    text-decoration: none;
+}
+  
+  /* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: rgb(34, 34, 34);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+  
+.head_left,
+.head_right {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+  
+.head_link img {
+    width: 29px;
+    height: 29px;
+    display: block;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+  
+.head_link img:hover {
+    transform: scale(1.1);
+}
+  
+  /* LANDING */
+.landing {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding-top: 100px;
+}
+  
+.left,
+.right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.right {
+    padding: 20px;
+    gap: 64px;
+}
+  
+.text-box {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+  
+.line {
+    width: 12px;
+    height: 98px;
+    background-color: #f16d7f;
+}
+  
+.text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 5px;
+    color: rgb(34, 34, 34);
+}
+  
+.text p {
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(34, 34, 34);
+}
+  
+.fashion {
+    color: #e75d71;
+    font-weight: 700;
+}
+  
+  /* SECTTION */
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 65px;
+    margin-bottom: 96px;
+}
+  
+.item {
+    position: relative;
+    width: 360px;
+    height: 260px;
+}
+
+.item_accesories {
+    position: relative;
+    width: 1140px;
+    height: 180px;
+}
+  
+.section_img {
+    width: 100%;
+    height: 100%;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(33, 22, 22, 0.6); 
+}
+  
+.text-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+  
+.subtitle_section {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+  
+.title_section {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(241, 109, 127);
+}
+
+  /* SHOP */
+
+.title_top_shop {
+    color: rgb(34, 34, 34);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.top_text_shop {
+    color: rgb(159, 159, 159);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 48px;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.item_shop {
+    width: 360px; 
+    height: 581px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.shop_img {
+    width: 100%; 
+    height: auto; 
+}
+
+.text_content_shop{
+    padding: 24px 16px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.shop_title {
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.text_shop {
+    color: rgb(93, 93, 93);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.price {
+    color: rgb(241, 109, 127);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.all_product_btn {
+    color: rgb(242, 99, 118);
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: 1px solid rgb(255, 106, 106);
+    padding: 14.5px 38.5px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 49px;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
