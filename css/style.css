@@ -4,6 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background: rgb(255, 255, 255);
+    font-family: Lato;
+}
   
 a {
     text-decoration: none;
