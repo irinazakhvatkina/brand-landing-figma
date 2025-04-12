@@ -7,7 +7,7 @@
 
 body {
     background: rgb(255, 255, 255);
-    font-family: Lato;
+    font-family: Lato, sans-serif;
 }
   
 a {
@@ -55,6 +55,7 @@ a {
     justify-content: center;
     min-height: 100vh;
     padding-top: 100px;
+    background: rgb(241, 228, 230);
 }
   
 .left,
@@ -248,4 +249,46 @@ a {
     margin-top: 49px;
     margin-bottom: 60px;
     cursor: pointer;
+}
+
+
+@media (max-width: 1024px) {
+    .line {
+        height: 92px;
+    }
+
+    .text h1 {
+        font-size: 44px;
+    }
+
+    .text p {
+        font-size: 24px;
+    }
+
+    .left img {
+        width: 370px;
+        height: 368px;
+    }
+
+    .landing { 
+        min-height: unset;
+        height: auto;
+    }
+
+    .section {
+        width: 736px;
+        height: 303.04px;
+        gap: 19px;
+        margin: 65px 16px 105px 16px;
+    }
+    
+    .item {
+        width: 232.39px;
+        height: 167px;
+    }
+
+    .item_accesories {
+        width: 736px;
+        height: 116.04px;
+    }
 }
